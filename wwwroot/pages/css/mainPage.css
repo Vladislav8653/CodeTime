@@ -1,0 +1,42 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(52, 56, 61);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    height: 98vh;
+}
+
+.input-section {
+    margin-right: 20px;
+}
+
+#name-input {
+    padding: 12px 20px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.button-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.start-stream-btn,
+.watch-stream-btn {
+    padding: 12px 20px;
+    font-size: 17px;
+    background-color: rgb(111, 119, 135);;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
