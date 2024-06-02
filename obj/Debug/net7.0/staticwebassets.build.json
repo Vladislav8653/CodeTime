@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kpW7JZjdNEO4DN7FBUaORsdYT1D4p56kmTyEmRo5XTc=",
+  "Hash": "XZ+21YUYpLhdEnWUJarkczktOXp+Tp8Eaj2b78miDMc=",
   "Source": "CodeTimeProject",
   "BasePath": "_content/CodeTimeProject",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CodeTimeProject.bundle.scp.css"
     },
     {
+      "Identity": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\css\\startPage.css",
+      "SourceId": "CodeTimeProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\",
+      "BasePath": "_content/CodeTimeProject",
+      "RelativePath": "css/startPage.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\startPage.css"
+    },
+    {
       "Identity": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\icons\\favicon.ico",
       "SourceId": "CodeTimeProject",
       "SourceType": "Discovered",
@@ -72,25 +91,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icons\\favicon.ico"
-    },
-    {
-      "Identity": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\js\\auth.js",
-      "SourceId": "CodeTimeProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\",
-      "BasePath": "_content/CodeTimeProject",
-      "RelativePath": "js/auth.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\auth.js"
     },
     {
       "Identity": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\js\\browser.js",
@@ -1309,12 +1309,12 @@
       "OriginalItemSpec": "wwwroot\\pages\\css\\site.css"
     },
     {
-      "Identity": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\css\\startPage.css",
+      "Identity": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\js\\auth.js",
       "SourceId": "CodeTimeProject",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\",
       "BasePath": "_content/CodeTimeProject",
-      "RelativePath": "pages/css/startPage.css",
+      "RelativePath": "pages/js/auth.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1325,7 +1325,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\pages\\css\\startPage.css"
+      "OriginalItemSpec": "wwwroot\\pages\\js\\auth.js"
     },
     {
       "Identity": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\login.html",

@@ -5,12 +5,12 @@
       "PackagePath": "staticwebassets\\CodeTimeProject.bundle.scp.css"
     },
     {
-      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\icons\\favicon.ico",
-      "PackagePath": "staticwebassets\\icons\\favicon.ico"
+      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\css\\startPage.css",
+      "PackagePath": "staticwebassets\\css\\startPage.css"
     },
     {
-      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\js\\auth.js",
-      "PackagePath": "staticwebassets\\js\\auth.js"
+      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\icons\\favicon.ico",
+      "PackagePath": "staticwebassets\\icons\\favicon.ico"
     },
     {
       "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\js\\browser.js",
@@ -269,8 +269,8 @@
       "PackagePath": "staticwebassets\\pages\\css\\site.css"
     },
     {
-      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\css\\startPage.css",
-      "PackagePath": "staticwebassets\\pages\\css\\startPage.css"
+      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\js\\auth.js",
+      "PackagePath": "staticwebassets\\pages\\js\\auth.js"
     },
     {
       "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\login.html",

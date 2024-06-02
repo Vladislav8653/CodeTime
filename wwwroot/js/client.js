@@ -1,6 +1,5 @@
 ﻿"use strict";
 
-const connection = new signalR.HubConnectionBuilder().withUrl("/ClientLogic").build();
 connection.start();
 
 alert(52+"сво_zov_гойда")

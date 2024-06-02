@@ -31,3 +31,4 @@ D:\4_semestr\CodeTime\server\CodeTimeProject\obj\Debug\net7.0\CodeTimeProject.ge
 D:\4_semestr\CodeTime\server\CodeTimeProject\obj\Debug\net7.0\ref\CodeTimeProject.dll
 D:\4_semestr\CodeTime\server\CodeTimeProject\bin\Debug\net7.0\package-lock.json
 D:\4_semestr\CodeTime\server\CodeTimeProject\bin\Debug\net7.0\package.json
+D:\4_semestr\CodeTime\server\CodeTimeProject\obj\Debug\net7.0\CodeTimeProject.sourcelink.json

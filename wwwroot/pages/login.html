@@ -4,32 +4,17 @@
 	<meta charset="UTF-8">
 	<title>CodeTime</title>
 	<link rel="stylesheet" href="css/auth.css">
-	<script src="./js/auth.js"></script>
-	<!--<style>
-		#notification {
-			position: fixed;
-			bottom: 20px;
-			right: 20px;
-			background-color: #333;
-			color: #fff;
-			padding: 10px 20px;
-			border-radius: 5px;
-			opacity: 0;
-			transition: opacity 0.3s ease-in-out;
-		}
-		#notification.show {
-			opacity: 1;
-		}
-	</style>-->
+	<script src="js/signalr.js"></script>
+	<script src="js/auth.js"></script>
 </head>
 <body>
 	<h1>Войти</h1>
 	<div id="wrapper">
-		<form id="login" name = "signin" method="post" action="" autocomplete="off">
+		<form id="login" action="" autocomplete="off">
 			<input type="text" id="user" name="user" placeholder="username" />
 			<input type="password" id="pass" name="pass" placeholder="password" />
 			<button type="submit">&#xf0da;</button>
-			<p>forgot your password? <a href="#" id="forgotPasswordLink" >click here</a></p>
+			<p>forgot your password? <a href="" id="forgotPasswordLink" >click here</a></p>
 			<div id="notification"></div>
 		</form>
 	</div>

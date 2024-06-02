@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>CodeTime</title>
-	<link rel="stylesheet" href="./css/auth.css">
-	<script src="./js/auth.js"></script>
+	<link rel="stylesheet" href="css/auth.css">
+	<script src="js/signalr.js"></script>
+	<script src="js/auth.js"></script>
 </head>
 <body>
 	<h1>Регистрация</h1>
 	<div id="wrapper">
-		<form id="signup" name = "signin" method="post" action="" autocomplete="off">
+		<form id="signup" action="" autocomplete="off">
 			<input type="text" id="user" name="user" placeholder="username" />
 			<input type="password" id="pass" name="pass" placeholder="password" />
 			<button type="submit">&#xf0da;</button>
+			<div id="notification"></div>
 		</form>
 	</div>
 </body>
