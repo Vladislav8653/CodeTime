@@ -5,10 +5,8 @@
         if (AuthenticationHub.instance) {
             return AuthenticationHub.instance;
         }
-
         this.connection = new signalR.HubConnectionBuilder().withUrl("/Authentication").build();
         this.connection.start();
-
         AuthenticationHub.instance = this;
     }
 
@@ -20,8 +18,7 @@
 const authenticationHub = new AuthenticationHub();
 const auth = authenticationHub.getConnection();
 
-
-alert("Connection started")
+//alert("Connection started")
 document.addEventListener('DOMContentLoaded', function() {
     const forgotPasswordLink = document.getElementById('forgotPasswordLink');
     if (forgotPasswordLink) {
@@ -32,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     const loginSendBtn = document.getElementById('login');
     if (loginSendBtn) {
-        document.getElementById('login').addEventListener('submit', function (event) {
+        document.getElementById('login').addEventListener('submit', async function (event) {
             event.preventDefault();
             var username = document.getElementById('user').value;
             var password = document.getElementById('pass').value;
@@ -40,14 +37,18 @@ document.addEventListener('DOMContentLoaded', function() {
                 showNotification('Field length exceeds the limit 30 symbols.');
                 return;
             }
-            alert("login: " + username + password)
-            auth.invoke("GetUserInfo", username, password);
+            if (username.length === 0 || password.length === 0) {
+                showNotification("Field length cannot be 0.");
+                return;
+            }
+            //alert("login: " + username + password)
+            await auth.invoke("GetUserInfo", username, password);
         });
     }
 
     const sighUpSendBtn = document.getElementById('signup');
     if (sighUpSendBtn) {
-        document.getElementById('signup').addEventListener('submit', function (event) {
+        document.getElementById('signup').addEventListener('submit', async function (event) {
             event.preventDefault();
             var username = document.getElementById('user').value;
             var password = document.getElementById('pass').value;
@@ -55,10 +56,26 @@ document.addEventListener('DOMContentLoaded', function() {
                 showNotification("Field length exceeds the limit 30 symbols.");
                 return;
             }
-            alert("signup: " + username + password)
-            auth.invoke("GetNewUserInfo", username, password);
+            if (username.length === 0 || password.length === 0) {
+                showNotification("Field length cannot be 0.");
+                return;
+            }
+            //alert("signup: " + username + password)
+            await auth.invoke("GetNewUserInfo", username, password);
         });
     }
+});
+
+auth.on("CheckUser", function (answer) {
+   //alert(answer);
+   if (answer === "true") {
+       window.location.href = 'mainPage.html';
+       auth.stop();
+   } else if (answer === 'false_exist') {
+       showNotification("User already exists.");
+   } else {
+       showNotification("Invalid data.");
+   }
 });
 
 function showNotification(text) {
