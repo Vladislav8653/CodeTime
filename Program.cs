@@ -25,5 +25,4 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 app.MapHub<ClientLogic>("/ClientLogic");
-app.MapHub<Authentication>("/Authentication");
 app.Run();

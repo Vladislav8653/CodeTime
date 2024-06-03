@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Трансляция</title>
+    <title>CodeTime</title>
     <link rel="stylesheet" href="css/mainPage.css">
+    <script src="js/signalr.js"></script>
+    <script src="js/browser.js"></script>
+    <script src="js/hub.js"></script>
+    <script src="js/mainPage.js"></script>
 </head>
 <body>
 <div class="container">
@@ -12,8 +16,8 @@
         <input type="text" id="name-input" placeholder="Input broadcast's username">
     </div>
     <div class="button-section">
-        <button class="start-stream-btn">Start broadcast</button>
-        <button class="watch-stream-btn">Join broadcast</button>
+        <button class="start-stream-btn" id="start">Start broadcast</button>
+        <button class="watch-stream-btn" id="join">Join broadcast</button>
     </div>
 </div>
 </body>

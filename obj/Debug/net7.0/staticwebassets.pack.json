@@ -13,14 +13,6 @@
       "PackagePath": "staticwebassets\\icons\\favicon.ico"
     },
     {
-      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\js\\browser.js",
-      "PackagePath": "staticwebassets\\js\\browser.js"
-    },
-    {
-      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\js\\client.js",
-      "PackagePath": "staticwebassets\\js\\client.js"
-    },
-    {
       "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.js"
     },
@@ -265,12 +257,40 @@
       "PackagePath": "staticwebassets\\pages\\css\\auth.css"
     },
     {
+      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\css\\mainPage.css",
+      "PackagePath": "staticwebassets\\pages\\css\\mainPage.css"
+    },
+    {
       "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\css\\site.css",
       "PackagePath": "staticwebassets\\pages\\css\\site.css"
     },
     {
       "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\js\\auth.js",
       "PackagePath": "staticwebassets\\pages\\js\\auth.js"
+    },
+    {
+      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\js\\browser.js",
+      "PackagePath": "staticwebassets\\pages\\js\\browser.js"
+    },
+    {
+      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\js\\client.js",
+      "PackagePath": "staticwebassets\\pages\\js\\client.js"
+    },
+    {
+      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\js\\hub.js",
+      "PackagePath": "staticwebassets\\pages\\js\\hub.js"
+    },
+    {
+      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\js\\mainPage.js",
+      "PackagePath": "staticwebassets\\pages\\js\\mainPage.js"
+    },
+    {
+      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\js\\signalr.js",
+      "PackagePath": "staticwebassets\\pages\\js\\signalr.js"
+    },
+    {
+      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\js\\signalr.min.js",
+      "PackagePath": "staticwebassets\\pages\\js\\signalr.min.js"
     },
     {
       "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\login.html",

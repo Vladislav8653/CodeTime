@@ -1,21 +1,4 @@
-﻿class AuthenticationHub {
-    static instance = null;
-
-    constructor() {
-        if (AuthenticationHub.instance) {
-            return AuthenticationHub.instance;
-        }
-        this.connection = new signalR.HubConnectionBuilder().withUrl("/Authentication").build();
-        this.connection.start();
-        AuthenticationHub.instance = this;
-    }
-
-    getConnection() {
-        return this.connection;
-    }
-}
-
-const authenticationHub = new AuthenticationHub();
+﻿const authenticationHub = new Hub();
 const auth = authenticationHub.getConnection();
 
 //alert("Connection started")
@@ -70,7 +53,6 @@ auth.on("CheckUser", function (answer) {
    //alert(answer);
    if (answer === "true") {
        window.location.href = 'mainPage.html';
-       auth.stop();
    } else if (answer === 'false_exist') {
        showNotification("User already exists.");
    } else {
