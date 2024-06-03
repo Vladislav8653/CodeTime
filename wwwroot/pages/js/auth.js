@@ -1,7 +1,6 @@
 ﻿const authenticationHub = new Hub();
 const auth = authenticationHub.getConnection();
 
-//alert("Connection started")
 document.addEventListener('DOMContentLoaded', function() {
     const forgotPasswordLink = document.getElementById('forgotPasswordLink');
     if (forgotPasswordLink) {

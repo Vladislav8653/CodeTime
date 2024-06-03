@@ -21,10 +21,6 @@
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.min.js"
     },
     {
-      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
-    },
-    {
       "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
@@ -271,10 +267,6 @@
     {
       "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\js\\browser.js",
       "PackagePath": "staticwebassets\\pages\\js\\browser.js"
-    },
-    {
-      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\js\\client.js",
-      "PackagePath": "staticwebassets\\pages\\js\\client.js"
     },
     {
       "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\pages\\js\\hub.js",
