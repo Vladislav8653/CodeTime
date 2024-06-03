@@ -4,8 +4,9 @@ namespace SignalRChat.Hubs
 {
     public class ClientLogic : Hub
     {
-        private readonly string _usersFilePath = "directories/users.txt";
-        private readonly string _onlineUsersFilePath = "D:/onlineUsers.txt";
+        private readonly string _usersFilePath = "wwwroot/directories/users.txt";
+        private readonly string _onlineUsersFilePath = "wwwroot/directories/onlineUsers.txt";
+        private readonly string _videoPath = "wwwroot/directories/video.txt";
         private readonly Dictionary<string, string> _userConnections = new Dictionary<string, string>();
         
         
@@ -45,16 +46,15 @@ namespace SignalRChat.Hubs
         
         public async Task GetVideo(string base64Video)
         {
-            string filePath = "D:/video.txt";
-            await AppendTextToFileAsync(filePath, base64Video);
+            
+            await AppendTextToFileAsync(_videoPath, base64Video);
             //string user = await File.ReadAllTextAsync("D:/1.txt");
             //await SendVideo(base64Video, user);
         }
         
         public async Task SendVideo(string base64Video, string user)
         {
-            string filePath = "D:/video.txt";
-            await AppendTextToFileAsync(filePath, "a");
+            await AppendTextToFileAsync(_videoPath, "a");
             await Clients.Client(user).SendAsync("ReceiveVideo", base64Video);
         }
         
@@ -79,6 +79,12 @@ namespace SignalRChat.Hubs
                 }
             }
             await Clients.Client(Context.ConnectionId).SendAsync("ReceiveBroadcastOwnerId", "false");
+        }
+        public override Task OnDisconnectedAsync(Exception? exception)
+        {
+            if (File.Exists(_videoPath))
+                File.Delete(_videoPath);
+            return base.OnDisconnectedAsync(exception);
         }
     }
 }

@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\css\\startPage.css"
     },
     {
+      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\directories\\onlineUsers.txt",
+      "PackagePath": "staticwebassets\\directories\\onlineUsers.txt"
+    },
+    {
+      "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\directories\\users.txt",
+      "PackagePath": "staticwebassets\\directories\\users.txt"
+    },
+    {
       "Id": "D:\\4_semestr\\CodeTime\\server\\CodeTimeProject\\wwwroot\\icons\\favicon.ico",
       "PackagePath": "staticwebassets\\icons\\favicon.ico"
     },

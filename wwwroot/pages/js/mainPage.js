@@ -52,26 +52,6 @@ connection.on("ReceiveBroadcastOwnerId", function (answer) {
     if (answer === "false") {
         showNotification("User doesn't exist.");
     } else {
-        /*videoElement.id = 'videoPlayer';
-        videoElement.controls = true;
-        document.body.appendChild(videoElement);
-        videoElement.style.position = 'fixed';
-        videoElement.style.top = '0';
-        videoElement.style.left = '0';
-        videoElement.style.width = '100vw';
-        videoElement.style.height = '90vh';
-        videoElement.style.marginTop = '3px';
-        videoElement.style.objectFit = 'contain';
-        videoElement.style.zIndex = '9999';
-        videoElement.style.borderRadius = '30px';
-        selectTextFromFile()
-            .then(function(fileContent) {
-                const videoBytes = base64ToUint8Array(fileContent);
-                saveVideoToFile(videoBytes);
-            })
-            .catch(function(error) {
-                console.error(error);
-            });*/
         selectTextFromFile()
             .then(function(fileContent) {
                 const videoBytes = base64ToUint8Array(fileContent);
